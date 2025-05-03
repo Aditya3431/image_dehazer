@@ -14,8 +14,6 @@ def about():
     return render_template("about.html")
 
 
-import streamlit as st
-
 st.set_page_config(page_title="Home Page", layout="centered")
 
 st.title("Home Page")
